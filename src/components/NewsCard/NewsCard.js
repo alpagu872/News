@@ -7,7 +7,7 @@ const NewsCard = ({news}) => {
         <View style={styles.container}>
 
             <Image style={styles.image} ></Image>
-            <Text style={styles.title}>{news.title}</Text>
+            <Text style={styles.title}>{news.title , 'falan'}</Text>
             <Text style={styles.description}>   {news.description}   </Text>
 
         </View>
